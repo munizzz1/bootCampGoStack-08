@@ -18,7 +18,7 @@ export default class AddOrderIdToOrdersProducts1615757639761 implements Migratio
                 name: 'OrdersProductsOrder',
                 columnNames: ['order_id'],
                 referencedColumnNames: ['id'],
-                referencedTableName: 'ordres',
+                referencedTableName: 'orders',
                 onDelete: `SET NULL`,
             }),
         );
